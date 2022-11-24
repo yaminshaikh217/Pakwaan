@@ -181,6 +181,7 @@ window.addEventListener("click" , (e) => {
   if(e.target.id == "closePopUp") {
     modal.classList.remove("active")
     document.body.style.overflow = "auto"
+    modal.style.display = 'none'
   }
 })
 
